@@ -1,5 +1,5 @@
 const ruta=require("express").Router();
-const usuarioClase=require("../clases/usuarioClase")
+const usuarioClase=require("../clases/UsuarioClase")
 const UsuarioBD=require("../bd/usuariosBD");
 const productosBD = require("../bd/productosBD");
 const productoClase=require("../clases/productoClase");
